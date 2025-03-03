@@ -7,5 +7,7 @@
 
 import Foundation
 
-print("Hello, World!")
+print("Hello World")
+print("Dies ist mein erste Code")
+print("\(5+3)+\(7+3)")
 
