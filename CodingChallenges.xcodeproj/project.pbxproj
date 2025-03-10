@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
+		BE067D102D784D8B007F5FC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BE067DC92D7EE482007F5FC5 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		BEC39A7F2D75E06C008E4B7A /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -19,18 +37,88 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		BE067D122D784D8B007F5FC5 /* W1T3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = W1T3; path = /Users/maltesteinlandt/Documents/CodingChallenge/CodingChallenges/build/Debug/W1T3; sourceTree = "<absolute>"; };
+		BE067DCB2D7EE482007F5FC5 /* W2T1 Coding */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "W2T1 Coding"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC39A812D75E06C008E4B7A /* CodingChallenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingChallenges; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BE067DE02D7EE51F007F5FC5 /* Exceptions for "CodingChallenges" folder in "CodingChallenges" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.swift,
+			);
+			target = BEC39A802D75E06C008E4B7A /* CodingChallenges */;
+		};
+		BE067DE12D7EE51F007F5FC5 /* Exceptions for "CodingChallenges" folder in "W1T3" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.swift,
+			);
+			target = BE067D112D784D8B007F5FC5 /* W1T3 */;
+		};
+		BE067DE52D7EE528007F5FC5 /* Exceptions for "W2T1 Coding" folder in "W1T3" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.swift,
+			);
+			target = BE067D112D784D8B007F5FC5 /* W1T3 */;
+		};
+		BE067DE62D7EE528007F5FC5 /* Exceptions for "W2T1 Coding" folder in "W2T1 Coding" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				main.swift,
+			);
+			target = BE067DCA2D7EE482007F5FC5 /* W2T1 Coding */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		BEC39A832D75E06C008E4B7A /* CodingChallenges */ = {
+		BE067D132D784D8B007F5FC5 /* W1T3 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			path = W1T3;
+			sourceTree = "<group>";
+		};
+		BE067DC62D7EE3DC007F5FC5 /* W2 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = W2;
+			sourceTree = "<group>";
+		};
+		BE067DDE2D7EE51F007F5FC5 /* CodingChallenges */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BE067DE02D7EE51F007F5FC5 /* Exceptions for "CodingChallenges" folder in "CodingChallenges" target */,
+				BE067DE12D7EE51F007F5FC5 /* Exceptions for "CodingChallenges" folder in "W1T3" target */,
+			);
 			path = CodingChallenges;
+			sourceTree = "<group>";
+		};
+		BE067DE32D7EE528007F5FC5 /* W2T1 Coding */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BE067DE52D7EE528007F5FC5 /* Exceptions for "W2T1 Coding" folder in "W1T3" target */,
+				BE067DE62D7EE528007F5FC5 /* Exceptions for "W2T1 Coding" folder in "W2T1 Coding" target */,
+			);
+			path = "W2T1 Coding";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BE067D0F2D784D8B007F5FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE067DC82D7EE482007F5FC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEC39A7E2D75E06C008E4B7A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -44,8 +132,11 @@
 		BEC39A782D75E06C008E4B7A = {
 			isa = PBXGroup;
 			children = (
-				BEC39A832D75E06C008E4B7A /* CodingChallenges */,
+				BE067DDE2D7EE51F007F5FC5 /* CodingChallenges */,
+				BE067DC62D7EE3DC007F5FC5 /* W2 */,
 				BEC39A822D75E06C008E4B7A /* Products */,
+				BE067D132D784D8B007F5FC5 /* W1T3 */,
+				BE067DE32D7EE528007F5FC5 /* W2T1 Coding */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				BEC39A812D75E06C008E4B7A /* CodingChallenges */,
+				BE067DCB2D7EE482007F5FC5 /* W2T1 Coding */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -60,6 +152,49 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BE067D112D784D8B007F5FC5 /* W1T3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE067D182D784D8B007F5FC5 /* Build configuration list for PBXNativeTarget "W1T3" */;
+			buildPhases = (
+				BE067D0E2D784D8B007F5FC5 /* Sources */,
+				BE067D0F2D784D8B007F5FC5 /* Frameworks */,
+				BE067D102D784D8B007F5FC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BE067D132D784D8B007F5FC5 /* W1T3 */,
+				BE067DDE2D7EE51F007F5FC5 /* CodingChallenges */,
+				BE067DE32D7EE528007F5FC5 /* W2T1 Coding */,
+			);
+			name = W1T3;
+			packageProductDependencies = (
+			);
+			productName = W1T3;
+			productReference = BE067D122D784D8B007F5FC5 /* W1T3 */;
+			productType = "com.apple.product-type.tool";
+		};
+		BE067DCA2D7EE482007F5FC5 /* W2T1 Coding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BE067DCF2D7EE482007F5FC5 /* Build configuration list for PBXNativeTarget "W2T1 Coding" */;
+			buildPhases = (
+				BE067DC72D7EE482007F5FC5 /* Sources */,
+				BE067DC82D7EE482007F5FC5 /* Frameworks */,
+				BE067DC92D7EE482007F5FC5 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "W2T1 Coding";
+			packageProductDependencies = (
+			);
+			productName = "W2T1 Coding";
+			productReference = BE067DCB2D7EE482007F5FC5 /* W2T1 Coding */;
+			productType = "com.apple.product-type.tool";
+		};
 		BEC39A802D75E06C008E4B7A /* CodingChallenges */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BEC39A882D75E06C008E4B7A /* Build configuration list for PBXNativeTarget "CodingChallenges" */;
@@ -73,7 +208,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				BEC39A832D75E06C008E4B7A /* CodingChallenges */,
+				BE067DC62D7EE3DC007F5FC5 /* W2 */,
 			);
 			name = CodingChallenges;
 			packageProductDependencies = (
@@ -92,6 +227,12 @@
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
+					BE067D112D784D8B007F5FC5 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BE067DCA2D7EE482007F5FC5 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 					BEC39A802D75E06C008E4B7A = {
 						CreatedOnToolsVersion = 16.2;
 					};
@@ -112,11 +253,27 @@
 			projectRoot = "";
 			targets = (
 				BEC39A802D75E06C008E4B7A /* CodingChallenges */,
+				BE067D112D784D8B007F5FC5 /* W1T3 */,
+				BE067DCA2D7EE482007F5FC5 /* W2T1 Coding */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BE067D0E2D784D8B007F5FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE067DC72D7EE482007F5FC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BEC39A7D2D75E06C008E4B7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -127,6 +284,42 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		BE067D162D784D8B007F5FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BE067D172D784D8B007F5FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		BE067DD02D7EE482007F5FC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BE067DD12D7EE482007F5FC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 		BEC39A862D75E06C008E4B7A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -266,6 +459,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BE067D182D784D8B007F5FC5 /* Build configuration list for PBXNativeTarget "W1T3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE067D162D784D8B007F5FC5 /* Debug */,
+				BE067D172D784D8B007F5FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BE067DCF2D7EE482007F5FC5 /* Build configuration list for PBXNativeTarget "W2T1 Coding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BE067DD02D7EE482007F5FC5 /* Debug */,
+				BE067DD12D7EE482007F5FC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BEC39A7C2D75E06C008E4B7A /* Build configuration list for PBXProject "CodingChallenges" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
