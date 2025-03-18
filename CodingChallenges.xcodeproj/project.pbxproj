@@ -34,12 +34,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
+		BEF9019A2D8825E0001915EA /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		BE067D122D784D8B007F5FC5 /* W1T3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; name = W1T3; path = /Users/maltesteinlandt/Documents/CodingChallenge/CodingChallenges/build/Debug/W1T3; sourceTree = "<absolute>"; };
 		BE067DCB2D7EE482007F5FC5 /* W2T1 Coding */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "W2T1 Coding"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BEC39A812D75E06C008E4B7A /* CodingChallenges */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CodingChallenges; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF901802D881CC9001915EA /* W1T3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = W1T3; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF9019C2D8825E0001915EA /* Coding Challenge Woche 3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Coding Challenge Woche 3"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -102,6 +112,11 @@
 			path = "W2T1 Coding";
 			sourceTree = "<group>";
 		};
+		BEF9019D2D8825E0001915EA /* Coding Challenge Woche 3 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Coding Challenge Woche 3";
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,17 +141,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BEF901992D8825E0001915EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		BEC39A782D75E06C008E4B7A = {
 			isa = PBXGroup;
 			children = (
-				BE067DDE2D7EE51F007F5FC5 /* CodingChallenges */,
 				BE067DC62D7EE3DC007F5FC5 /* W2 */,
+				BEF9019D2D8825E0001915EA /* Coding Challenge Woche 3 */,
 				BEC39A822D75E06C008E4B7A /* Products */,
 				BE067D132D784D8B007F5FC5 /* W1T3 */,
 				BE067DE32D7EE528007F5FC5 /* W2T1 Coding */,
+				BE067DDE2D7EE51F007F5FC5 /* CodingChallenges */,
 			);
 			sourceTree = "<group>";
 		};
@@ -145,6 +168,8 @@
 			children = (
 				BEC39A812D75E06C008E4B7A /* CodingChallenges */,
 				BE067DCB2D7EE482007F5FC5 /* W2T1 Coding */,
+				BEF901802D881CC9001915EA /* W1T3 */,
+				BEF9019C2D8825E0001915EA /* Coding Challenge Woche 3 */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -173,7 +198,7 @@
 			packageProductDependencies = (
 			);
 			productName = W1T3;
-			productReference = BE067D122D784D8B007F5FC5 /* W1T3 */;
+			productReference = BEF901802D881CC9001915EA /* W1T3 */;
 			productType = "com.apple.product-type.tool";
 		};
 		BE067DCA2D7EE482007F5FC5 /* W2T1 Coding */ = {
@@ -217,6 +242,28 @@
 			productReference = BEC39A812D75E06C008E4B7A /* CodingChallenges */;
 			productType = "com.apple.product-type.tool";
 		};
+		BEF9019B2D8825E0001915EA /* Coding Challenge Woche 3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BEF901A02D8825E0001915EA /* Build configuration list for PBXNativeTarget "Coding Challenge Woche 3" */;
+			buildPhases = (
+				BEF901982D8825E0001915EA /* Sources */,
+				BEF901992D8825E0001915EA /* Frameworks */,
+				BEF9019A2D8825E0001915EA /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BEF9019D2D8825E0001915EA /* Coding Challenge Woche 3 */,
+			);
+			name = "Coding Challenge Woche 3";
+			packageProductDependencies = (
+			);
+			productName = "Coding Challenge Woche 3";
+			productReference = BEF9019C2D8825E0001915EA /* Coding Challenge Woche 3 */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -234,6 +281,9 @@
 						CreatedOnToolsVersion = 16.2;
 					};
 					BEC39A802D75E06C008E4B7A = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					BEF9019B2D8825E0001915EA = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
@@ -255,6 +305,7 @@
 				BEC39A802D75E06C008E4B7A /* CodingChallenges */,
 				BE067D112D784D8B007F5FC5 /* W1T3 */,
 				BE067DCA2D7EE482007F5FC5 /* W2T1 Coding */,
+				BEF9019B2D8825E0001915EA /* Coding Challenge Woche 3 */,
 			);
 		};
 /* End PBXProject section */
@@ -275,6 +326,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		BEC39A7D2D75E06C008E4B7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEF901982D8825E0001915EA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -456,6 +514,24 @@
 			};
 			name = Release;
 		};
+		BEF901A12D8825E0001915EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		BEF901A22D8825E0001915EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -491,6 +567,15 @@
 			buildConfigurations = (
 				BEC39A892D75E06C008E4B7A /* Debug */,
 				BEC39A8A2D75E06C008E4B7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BEF901A02D8825E0001915EA /* Build configuration list for PBXNativeTarget "Coding Challenge Woche 3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BEF901A12D8825E0001915EA /* Debug */,
+				BEF901A22D8825E0001915EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
