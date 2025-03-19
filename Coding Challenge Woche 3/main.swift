@@ -8,7 +8,6 @@
 import Foundation
 
 // 2-3.1 Coding Challenge 1
-
 print("Name: \(loewe.name)")
 print("Art: \(loewe.tierart)")
 print("Alter: \(loewe.alter)")
@@ -34,6 +33,15 @@ buch2.zeigeDetails()
 buch2.neuerLeser(neuerLeserName: "Jana")
 buch2.zeigeDetails()
 print("")
-// 2-3.2 Coding Challenge 2
 
+// 2-3.2 Coding Challenge 2
 ausweis.anzahlBuecher = 22
+
+// 2-3.3 Coding Challenge 1
+print("Raum: \(meinRaum)")
+print("GeräteStatus: \(gstatus)")
+print("GeräteTyp: \(geraet)")
+
+// 2-3.3 Coding Challenge 2
+tempcheck()
+roomTempCheck()
